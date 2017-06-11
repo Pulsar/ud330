@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>login page</title>
+
+    <!-- Load pre-requisites for google sign in -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//apis.google.com/js/platform.js?onload=start"> </script>
+    <!-- End pre-requisites for googlel isgn in -->
+  </head>
+  <body>
+    <!-- Google plus sign in button -->
+    <div id="signInButton">
+      <span class="g-signin"
+        data-scope="openid email"
+        data-clientid="637788094982-f9s8t5j26jci68dd0mtdlkfe73f0bnve.apps.googleusercontent.com"
+        data-redirecturi="postmessage"
+        data-accesstype="offline"
+        data-cookiepolicy="single_host_origin"
+        data-callback="signInCallback"
+        data-approvalprompt="force">
+    </span>
+    </div>
+    <!-- End google plus sign in button -->
+  </body>
+</html>
